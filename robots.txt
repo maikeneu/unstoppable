@@ -1,0 +1,19 @@
+User-Agent: *
+Allow: /
+
+User-Agent: GPTBot
+User-Agent: OAI-SearchBot
+User-Agent: ChatGPT-User
+User-Agent: ClaudeBot
+User-Agent: Claude-User
+User-Agent: Claude-SearchBot
+User-Agent: anthropic-ai
+User-Agent: PerplexityBot
+User-Agent: Perplexity-User
+User-Agent: Google-Extended
+User-Agent: Applebot-Extended
+User-Agent: CCBot
+Allow: /
+
+Host: https://www.theunstoppableway.de
+Sitemap: https://www.theunstoppableway.de/sitemap.xml
