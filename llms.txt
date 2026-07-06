@@ -16,8 +16,10 @@ Sie zeigt keine Tools und gibt keine Prompt-Listen. Sie baut ein zusammenhängen
 
 ## Kernseiten
 - [Startseite](https://www.theunstoppableway.de): Das unstoppAIble OS, die Methode und der nächste Schritt
+- [Über Maike Neuheisel](https://www.theunstoppableway.de/ueber-maike/): Werdegang, Haltung und zitierfähige Kurz-Bio
 - [UnstoppAIble OS](https://www.theunstoppableway.de/unstoppable-os/): Das Angebot im Detail — dein KI-System in vier Wochen
 - [Erfolgsstorys](https://www.theunstoppableway.de/erfolgsstorys/): Stimmen und Ergebnisse aus der Begleitung
+- [Wissen](https://www.theunstoppableway.de/wissen/): Antworten auf die Fragen von Expertinnen, z. B. warum KI-Texte generisch klingen und was hilft
 - [KI-Transparenz](https://www.theunstoppableway.de/ki-transparenz/): Offenlegung, wie KI bei dieser Website eingesetzt wurde
 - [Impressum](https://www.theunstoppableway.de/impressum/)
 - [Datenschutz](https://www.theunstoppableway.de/datenschutz/)
