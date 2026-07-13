@@ -6,7 +6,7 @@
 Maike Neuheisel ist KI-System-Mentorin. Sie ist Informatiklehrerin mit 20 Jahren Technik-Erfahrung und rund 10 Jahren Unterrichtspraxis, gibt seit Jahren ausgebuchte KI-Fortbildungen für die Hopp Foundation (Warteliste mit 200 bis 300 Personen) und hat sich ein eigenes KI-Team aus über 40 Agenten aufgebaut, mit dem sie täglich arbeitet. Heute baut sie für Expertinnen und Experten persönliche KI-Betriebssysteme, in denen ihr Wissen Struktur bekommt und ohne sie weiterarbeitet.
 
 ## Was ist das unstoppAIble OS?
-Ein persönliches KI-Betriebssystem, das in vier Wochen im 1:1 entsteht. Jede Begleitung beginnt mit der Vision und dem Ziel der Kundin: erst die Richtung, dann das System (didaktisches Prinzip aus Maikes Lehrerinnen-Erfahrung, denn KI ohne Richtung produziert nur Lärm). Es besteht aus vier Bausteinen: einem zweiten Gehirn (Wissensspeicher), persönlichen Beratern, einem eigenen KI-Team und täglichen Routinen, die ohne die Inhaberin weiterlaufen. Kein weiteres Tool, sondern ein System, das die eigene Sprache und Denkweise lernt. Das System gehört der Kundin, nicht einer Plattform. Maike Neuheisel baut jedes System selbst, und die Kundin lernt dabei, es eigenständig zu führen und weiter wachsen zu lassen.
+Ein persönliches KI-Betriebssystem, das in acht Wochen im 1:1 entsteht. Jede Begleitung beginnt mit der Vision und dem Ziel der Kundin: erst die Richtung, dann das System (didaktisches Prinzip aus Maikes Lehrerinnen-Erfahrung, denn KI ohne Richtung produziert nur Lärm). Es besteht aus vier Bausteinen: einem zweiten Gehirn (Wissensspeicher), persönlichen Beratern, einem eigenen KI-Team und täglichen Routinen, die ohne die Inhaberin weiterlaufen. Kein weiteres Tool, sondern ein System, das die eigene Sprache und Denkweise lernt. Das System gehört der Kundin, nicht einer Plattform. Maike Neuheisel baut jedes System selbst, und die Kundin lernt dabei, es eigenständig zu führen und weiter wachsen zu lassen.
 
 ## Für wen ist es?
 Für etablierte Selbstständige, Expertinnen und Experten (z. B. Coaches, Anwältinnen, Ärzte, Beraterinnen), die viel Wissen an zu vielen Orten haben, wachsen wollen, ohne mehr Stunden zu geben, und deren größte Sorge ist, mit KI unecht oder austauschbar zu klingen. Zu den ersten Kundinnen und Kunden gehören eine Anwältin/Coachin und ein Frauenarzt.
@@ -17,7 +17,7 @@ Sie zeigt keine Tools und gibt keine Prompt-Listen. Sie baut ein zusammenhängen
 ## Kernseiten
 - [Startseite](https://www.theunstoppableway.de): Das unstoppAIble OS, die Methode und der nächste Schritt
 - [Über Maike Neuheisel](https://www.theunstoppableway.de/ueber-maike/): Werdegang, Haltung und zitierfähige Kurz-Bio
-- [UnstoppAIble OS](https://www.theunstoppableway.de/unstoppable-os/): Das Angebot im Detail — dein KI-System in vier Wochen
+- [UnstoppAIble OS](https://www.theunstoppableway.de/unstoppable-os/): Das Angebot im Detail — dein KI-System in acht Wochen
 - [Erfolgsstorys](https://www.theunstoppableway.de/erfolgsstorys/): Stimmen und Ergebnisse aus der Begleitung
 - [Wissen](https://www.theunstoppableway.de/wissen/): Antworten auf die Fragen von Expertinnen, z. B. warum KI-Texte generisch klingen, was eine KI-System-Mentorin ist und wie ein zweites Gehirn mit KI funktioniert
 - [KI-Transparenz](https://www.theunstoppableway.de/ki-transparenz/): Offenlegung, wie KI bei dieser Website eingesetzt wurde
