@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Dein Morgen-Dashboard · Deine Weiterführung</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --warm-white:#FAF6F0; --cream:#F3EADF; --sand:#E7D7C4;
+    --charcoal:#3B322C; --copper:#C96B2C; --copper-burnt:#8A4214; --mute:#8A7E72;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Jost',system-ui,sans-serif;color:var(--charcoal);line-height:1.6;
+    background:
+      radial-gradient(900px 500px at 10% -6%, #FBEFE2 0%, transparent 60%),
+      radial-gradient(700px 420px at 95% 2%, #F4E4D5 0%, transparent 55%),
+      var(--warm-white);
+    padding:48px 20px 64px;
+  }
+  .page{max-width:760px;margin:0 auto}
+  .eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--copper);font-weight:600}
+  h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(2.2rem,6vw,3.1rem);line-height:1.05;margin-top:8px}
+  .lead{color:var(--mute);font-size:1.05rem;margin-top:12px;max-width:560px}
+  .card{
+    background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.75);
+    border-radius:22px;padding:26px 28px;margin-top:26px;
+    box-shadow:0 10px 30px -14px rgba(120,84,60,.28);
+  }
+  h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.5rem;margin-bottom:10px}
+  h3{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--copper-burnt);font-weight:600;margin:22px 0 8px}
+  h3:first-of-type{margin-top:0}
+  p{font-size:.98rem}
+  p + p{margin-top:10px}
+  ol.fragen{list-style:none;counter-reset:frage}
+  ol.fragen li{
+    counter-increment:frage;position:relative;padding:10px 0 10px 44px;
+    border-bottom:1px solid rgba(138,126,114,.16);font-size:.98rem;
+  }
+  ol.fragen li:last-child{border-bottom:none}
+  ol.fragen li::before{
+    content:counter(frage);position:absolute;left:0;top:9px;
+    width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
+    background:rgba(201,107,44,.12);border:1px solid rgba(201,107,44,.3);
+    color:var(--copper-burnt);font-weight:600;font-size:.82rem;
+  }
+  table{width:100%;border-collapse:collapse;margin-top:12px}
+  th,td{text-align:left;padding:10px 12px;font-size:.94rem;border-bottom:1px solid rgba(138,126,114,.2)}
+  th{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--copper);font-weight:600}
+  td.fill{color:var(--mute);font-style:italic}
+  .hinweis{
+    background:linear-gradient(135deg,rgba(201,107,44,.1),rgba(255,255,255,.5));
+    border:1px solid rgba(201,107,44,.28);border-radius:16px;padding:16px 20px;margin-top:14px;
+    font-size:.94rem;
+  }
+  .ablauf{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+  .schritt{display:flex;gap:14px;align-items:flex-start}
+  .schritt .nr{
+    flex:none;width:30px;height:30px;border-radius:10px;display:grid;place-items:center;
+    background:linear-gradient(180deg,#E29A63,#C96B2C,#8A4214);color:#fff;
+    font-weight:600;font-size:.86rem;box-shadow:0 6px 14px -6px rgba(201,107,44,.6);
+  }
+  .foot{text-align:center;color:var(--mute);font-size:.84rem;margin-top:44px}
+  .foot .sig{font-family:'Sacramento',cursive;color:var(--copper-burnt);font-size:1.5rem;display:block;margin-top:4px}
+  @media print{
+    body{background:#fff;padding:0}
+    .card{box-shadow:none;border-color:rgba(138,126,114,.3);break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="eyebrow">UNSTOPPABLE OS · Deine Weiterführung</div>
+  <h1>Dein Morgen-Dashboard.</h1>
+  <p class="lead">Dein Team steht und arbeitet für dich. Jetzt bekommt dein Tag einen festen Startpunkt: eine Seite, die du jeden Morgen per Doppelklick öffnest und die dir zeigt, was heute zählt.</p>
+
+  <div class="card">
+    <h2>Was dich erwartet</h2>
+    <p>Dein Morgen-Dashboard ist eine einzige Seite auf deinem Rechner. Sie begrüßt dich mit deinem Satz des Tages, zeigt dir deinen Fokus, deine wichtigsten Aufgaben und die Zahlen, die dir wirklich etwas sagen. Alles liegt bei dir, alles gehört dir.</p>
+    <p>Wir bauen es gemeinsam in deiner Session. Zuerst stelle ich dir Fragen, damit dein Dashboard wirklich zu deinem Morgen passt. Danach entsteht es live vor deinen Augen, mit deinen Zahlen und deinen Worten.</p>
+    <div class="ablauf" style="margin-top:16px">
+      <div class="schritt"><div class="nr">1</div><div><strong>Das Gespräch.</strong> Ich frage, du erzählst. Etwa 30 Minuten.</div></div>
+      <div class="schritt"><div class="nr">2</div><div><strong>Das Bauen.</strong> Dein Dashboard entsteht live, du entscheidest mit.</div></div>
+      <div class="schritt"><div class="nr">3</div><div><strong>Der Doppelklick.</strong> Du öffnest es selbst von deinem Schreibtisch. Ab morgen gehört es zu deinem Morgen.</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Die Fragen zum Vordenken</h2>
+    <p>Du musst nichts vorbereiten. Wenn du magst, lies die Fragen einmal in Ruhe durch. Alles, was dir dazu einfällt, macht deine Session leichter.</p>
+
+    <h3>Dein Morgen</h3>
+    <ol class="fragen">
+      <li>Was ist das Allererste, was du morgens am Schreibtisch öffnest oder anschaust?</li>
+      <li>Wie viel Zeit hast du morgens realistisch für einen Überblick, eher zwei Minuten oder eher zehn?</li>
+      <li>Woran merkst du heute oft erst mittags, dass du es morgens hättest wissen sollen?</li>
+    </ol>
+
+    <h3>Dein Tag</h3>
+    <ol class="fragen">
+      <li>Wenn du abends sagst „das war ein guter Tag": Was ist dann passiert?</li>
+      <li>Planst du lieber mit einer einzigen wichtigen Sache pro Tag oder mit drei festen Aufgaben?</li>
+      <li>Welche Nachrichten dürfen dir morgens auf keinen Fall durchrutschen?</li>
+      <li>Du trägst drei Hüte: Kanzlei, Coaching, Bühne. Willst du morgens alle drei auf einen Blick sehen oder nur den, der heute dran ist?</li>
+    </ol>
+
+    <h3>Deine Zahlen</h3>
+    <ol class="fragen">
+      <li>Welche drei Zahlen sagen dir am ehesten, ob dein Business gesund ist?</li>
+      <li>Was ist dein Monatsziel, und wie teilt es sich ungefähr auf deine Bereiche auf?</li>
+      <li>Deine wichtigste Währung ist Lebenszeit. Woran machst du fest, wie viele Stunden dir dein System pro Woche zurückgibt?</li>
+      <li>Welche Zahl trägst du gerne selbst ein, weil dich der Verlauf motiviert, und welche soll dich in Ruhe lassen?</li>
+    </ol>
+
+    <h3>Du selbst</h3>
+    <ol class="fragen">
+      <li>Welcher Satz würde dir morgens gut tun, wenn er dich als Erstes begrüßt?</li>
+      <li>Magst du abends festhalten, was heute gut gelaufen ist?</li>
+      <li>Gibt es etwas Persönliches, das du verfolgen möchtest, zum Beispiel Bewegung, freie Abende oder Zeit mit deinen Liebsten?</li>
+    </ol>
+
+    <h3>Dein System und deine Menschen</h3>
+    <ol class="fragen">
+      <li>Willst du morgens sehen, was dein System dir schon vorbereitet hat?</li>
+      <li>Welche Menschen dürfen dir nie durchrutschen, wenn die Woche voll ist?</li>
+      <li>Was vergisst du am ehesten nachzuhalten?</li>
+    </ol>
+
+    <h3>Aussehen und Alltag</h3>
+    <ol class="fragen">
+      <li>Soll dein Dashboard nach deiner eigenen Marke aussehen, mit deinen Farben und deinen Worten?</li>
+      <li>Wie sollen wir dich morgens begrüßen, und welcher Satz gehört ganz unten hin?</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Diese Zahlen bringst du mit</h2>
+    <p>Dein Dashboard startet am schönsten, wenn ab Tag 1 echte Zahlen drinstehen. Trag hier ein, was du weißt. Ungefähre Werte reichen völlig.</p>
+    <table>
+      <tr><th>Wert</th><th>Aktuell</th><th>Ziel im Monat</th></tr>
+      <tr><td>Umsatz gesamt</td><td class="fill">&nbsp;</td><td class="fill">&nbsp;</td></tr>
+      <tr><td>Anfragen oder Erstgespräche pro Woche</td><td class="fill">&nbsp;</td><td class="fill">&nbsp;</td></tr>
+      <tr><td>Laufende Mandate oder Klientinnen</td><td class="fill">&nbsp;</td><td class="fill">&nbsp;</td></tr>
+      <tr><td>Zurückgewonnene Stunden pro Woche</td><td class="fill">&nbsp;</td><td class="fill">&nbsp;</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Deine Daten bleiben bei dir</h2>
+    <p>Dein Morgen-Dashboard ist eine Datei auf deinem eigenen Rechner. Es schickt nichts ins Internet, und alles, was du einträgst, bleibt auf deinem Gerät.</p>
+    <div class="hinweis">
+      Eine Regel gilt wie immer: Es stehen keine echten Mandantendaten darin. Keine vollen Namen, keine Aktenzeichen, keine Fallinhalte. Für Erinnerungen reichen Initialen oder Vornamen. So bleibt dein Dashboard ein guter Ort, auch aus Sicht von Schweigepflicht und Datenschutz.
+    </div>
+  </div>
+
+  <div class="foot">
+    UNSTOPPABLE OS · Dein Morgen-Dashboard
+    <span class="sig">Become unstoppable.</span>
+  </div>
+
+</div>
+</body>
+</html>
