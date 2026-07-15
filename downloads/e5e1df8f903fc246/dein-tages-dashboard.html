@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Dein Morgen-Dashboard · Deine Weiterführung</title>
+<title>Dein Tages-Dashboard · Deine Weiterführung</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600&family=Sacramento&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -23,7 +23,7 @@
   .page{max-width:760px;margin:0 auto}
   .eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--copper);font-weight:600}
   h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(2.2rem,6vw,3.1rem);line-height:1.05;margin-top:8px}
-  .lead{color:var(--mute);font-size:1.05rem;margin-top:12px;max-width:560px}
+  .lead{color:var(--mute);font-size:1.05rem;margin-top:12px;max-width:580px}
   .card{
     background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.75);
     border-radius:22px;padding:26px 28px;margin-top:26px;
@@ -62,6 +62,12 @@
     background:linear-gradient(180deg,#E29A63,#C96B2C,#8A4214);color:#fff;
     font-weight:600;font-size:.86rem;box-shadow:0 6px 14px -6px rgba(201,107,44,.6);
   }
+  .zyklus{display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px solid rgba(138,126,114,.16)}
+  .zyklus:last-of-type{border-bottom:none}
+  .zyklus .zeit{
+    flex:none;min-width:86px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--copper);font-weight:600;padding-top:4px;
+  }
   .foot{text-align:center;color:var(--mute);font-size:.84rem;margin-top:44px}
   .foot .sig{font-family:'Sacramento',cursive;color:var(--copper-burnt);font-size:1.5rem;display:block;margin-top:4px}
   @media print{
@@ -74,17 +80,27 @@
 <div class="page">
 
   <div class="eyebrow">UNSTOPPABLE OS · Deine Weiterführung</div>
-  <h1>Dein Morgen-Dashboard.</h1>
-  <p class="lead">Dein Team steht und arbeitet für dich. Jetzt bekommt dein Tag einen festen Startpunkt: eine Seite, die du jeden Morgen per Doppelklick öffnest und die dir zeigt, was heute zählt.</p>
+  <h1>Dein Tages-Dashboard.</h1>
+  <p class="lead">Dein Team steht und arbeitet für dich. Jetzt bekommt dein Tag ein Zuhause: eine Seite, die du morgens per Doppelklick öffnest und die von morgens bis abends mit dir mitwächst.</p>
 
   <div class="card">
     <h2>Was dich erwartet</h2>
-    <p>Dein Morgen-Dashboard ist eine einzige Seite auf deinem Rechner. Sie begrüßt dich mit deinem Satz des Tages, zeigt dir deinen Fokus, deine wichtigsten Aufgaben und die Zahlen, die dir wirklich etwas sagen. Alles liegt bei dir, alles gehört dir.</p>
-    <p>Wir bauen es gemeinsam in deiner Session. Zuerst stelle ich dir Fragen, damit dein Dashboard wirklich zu deinem Morgen passt. Danach entsteht es live vor deinen Augen, mit deinen Zahlen und deinen Worten.</p>
+    <p>Dein Tages-Dashboard ist eine einzige Seite auf deinem Rechner. Sie zeigt dir deine Ziele, deinen Fokus, deine Aufgaben und die Zahlen, die dir wirklich etwas sagen. Zwei Dinge machen sie besonders: Du trägst deine eigenen Sachen selbst ein, und dein System bringt dreimal am Tag frische Updates.</p>
+    <div style="margin-top:14px">
+      <div class="zyklus"><div class="zeit">Morgens</div><div>Dein System begrüßt dich: Satz des Tages, deine Termine, was über Nacht vorbereitet wurde, ein Vorschlag für deinen Fokus.</div></div>
+      <div class="zyklus"><div class="zeit">Mittags</div><div>Ein ehrlicher Zwischenstand: was erledigt ist, was neu reingekommen ist, was heute noch realistisch schaffbar ist.</div></div>
+      <div class="zyklus"><div class="zeit">Abends</div><div>Dein Tagesabschluss: Erfolge festgehalten, Haken gesetzt, der morgige Tag liegt schon bereit.</div></div>
+    </div>
+    <p style="margin-top:14px">Dazwischen gehört die Seite dir: Ziele für den Monat und die Woche, deine To-do-Liste zum Abhaken, deine Erfolge, deine Zahlen mit Verlauf. Alles liegt bei dir, alles gehört dir.</p>
+  </div>
+
+  <div class="card">
+    <h2>So läuft deine Session</h2>
+    <p>Wir bauen dein Dashboard gemeinsam. Zuerst stelle ich dir Fragen, damit es wirklich zu deinem Tag passt. Danach entsteht es live vor deinen Augen, mit deinen Zahlen und deinen Worten.</p>
     <div class="ablauf" style="margin-top:16px">
       <div class="schritt"><div class="nr">1</div><div><strong>Das Gespräch.</strong> Ich frage, du erzählst. Etwa 30 Minuten.</div></div>
       <div class="schritt"><div class="nr">2</div><div><strong>Das Bauen.</strong> Dein Dashboard entsteht live, du entscheidest mit.</div></div>
-      <div class="schritt"><div class="nr">3</div><div><strong>Der Doppelklick.</strong> Du öffnest es selbst von deinem Schreibtisch. Ab morgen gehört es zu deinem Morgen.</div></div>
+      <div class="schritt"><div class="nr">3</div><div><strong>Der Doppelklick.</strong> Du öffnest es selbst von deinem Schreibtisch, und wir üben die drei Tages-Momente: morgens, mittags, abends.</div></div>
     </div>
   </div>
 
@@ -102,9 +118,18 @@
     <h3>Dein Tag</h3>
     <ol class="fragen">
       <li>Wenn du abends sagst „das war ein guter Tag": Was ist dann passiert?</li>
-      <li>Planst du lieber mit einer einzigen wichtigen Sache pro Tag oder mit drei festen Aufgaben?</li>
-      <li>Welche Nachrichten dürfen dir morgens auf keinen Fall durchrutschen?</li>
-      <li>Du trägst drei Hüte: Kanzlei, Coaching, Bühne. Willst du morgens alle drei auf einen Blick sehen oder nur den, der heute dran ist?</li>
+      <li>Welche Ziele willst du jeden Tag vor Augen haben: dein Monatsziel, ein Wochenziel, ein großes Jahresziel?</li>
+      <li>Wie planst du heute deine Aufgaben: im Kopf, auf Papier, in einem Programm? Und was davon soll ins Dashboard umziehen?</li>
+      <li>Welche Nachrichten dürfen dir auf keinen Fall durchrutschen?</li>
+      <li>Du trägst drei Hüte: Kanzlei, Coaching, Bühne. Willst du alle drei auf einen Blick sehen oder nur den, der heute dran ist?</li>
+    </ol>
+
+    <h3>Dein Mittag und dein Abend</h3>
+    <ol class="fragen">
+      <li>Gibt es mittags einen Moment, in dem ein kurzer Blick aufs Dashboard realistisch wäre?</li>
+      <li>Was würde dir mittags wirklich helfen: der Stand deiner Aufgaben, neue Nachrichten seit dem Morgen, oder ein ehrlicher Hinweis, was heute noch schaffbar ist?</li>
+      <li>Was gehört für dich in einen guten Tagesabschluss: Erfolge festhalten, Haken setzen, den morgigen Tag vorbereiten?</li>
+      <li>Willst du abends von deinem System eine kleine Bilanz bekommen, zum Beispiel „das hast du heute erledigt, das wartet auf morgen"?</li>
     </ol>
 
     <h3>Deine Zahlen</h3>
@@ -150,14 +175,14 @@
 
   <div class="card">
     <h2>Deine Daten bleiben bei dir</h2>
-    <p>Dein Morgen-Dashboard ist eine Datei auf deinem eigenen Rechner. Es schickt nichts ins Internet, und alles, was du einträgst, bleibt auf deinem Gerät.</p>
+    <p>Dein Tages-Dashboard ist eine Datei auf deinem eigenen Rechner. Es schickt nichts ins Internet. Deine eigenen Einträge bleiben auf deinem Gerät, und die drei Updates schreibt dein System bei dir zuhause hinein.</p>
     <div class="hinweis">
-      Eine Regel gilt wie immer: Es stehen keine echten Mandantendaten darin. Keine vollen Namen, keine Aktenzeichen, keine Fallinhalte. Für Erinnerungen reichen Initialen oder Vornamen. So bleibt dein Dashboard ein guter Ort, auch aus Sicht von Schweigepflicht und Datenschutz.
+      Eine Regel gilt wie immer: Es stehen keine echten Mandantendaten darin. Keine vollen Namen, keine Aktenzeichen, keine Fallinhalte. Für Erinnerungen reichen Initialen oder Vornamen, und auch die automatischen Updates halten sich daran. So bleibt dein Dashboard ein guter Ort, auch aus Sicht von Schweigepflicht und Datenschutz.
     </div>
   </div>
 
   <div class="foot">
-    UNSTOPPABLE OS · Dein Morgen-Dashboard
+    UNSTOPPABLE OS · Dein Tages-Dashboard
     <span class="sig">Become unstoppable.</span>
   </div>
 
