@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>Auf welcher Stufe stehst du gerade? · Maike Neuheisel</title>
+<meta name="description" content="Die drei Stufen, auf denen Expertinnen mit ihrem Wissen arbeiten. Finde heraus, wo du stehst und was dein nächster Schritt wäre.">
+<style>
+  :root{
+    --warmwhite:#F7F3EE;
+    --charcoal:#222222;
+    --terracotta:#BC7A57;
+    --copper:#C96B2C;
+    --ink-soft:rgba(34,34,34,.72);
+    --glass:rgba(255,255,255,.55);
+    --glass-border:rgba(255,255,255,.75);
+    --rot:#B0523C;
+    --amber:#C08A2E;
+    --gruen:#5F7D5A;
+    --serif:"Cormorant Garamond","Iowan Old Style",Georgia,"Times New Roman",serif;
+    --sans:"Jost","Avenir Next","Futura",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--warmwhite);
+    color:var(--charcoal);
+    font-family:var(--sans);
+    font-weight:300;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  body::before{
+    content:"";
+    position:fixed;inset:0;z-index:-1;
+    background:
+      radial-gradient(60vw 60vw at 85% -10%, rgba(188,122,87,.16), transparent 60%),
+      radial-gradient(50vw 50vw at -10% 40%, rgba(201,107,44,.10), transparent 60%),
+      radial-gradient(45vw 45vw at 70% 105%, rgba(188,122,87,.12), transparent 60%);
+  }
+  .wrap{max-width:640px;margin:0 auto;padding:0 22px}
+
+  header{padding:44px 0 10px;text-align:center}
+  .wordmark{
+    font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;
+    color:var(--terracotta);font-weight:400;
+  }
+  h1{
+    font-family:var(--serif);font-weight:500;
+    font-size:clamp(2rem,7vw,2.9rem);
+    line-height:1.15;margin:18px 0 14px;
+  }
+  .intro{color:var(--ink-soft);font-size:1.02rem;max-width:520px;margin:0 auto}
+
+  .stufen{display:flex;flex-direction:column;gap:18px;margin:38px 0 8px}
+  .card{
+    background:var(--glass);
+    border:1px solid var(--glass-border);
+    border-radius:22px;
+    padding:26px 24px 22px;
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    box-shadow:0 18px 40px -24px rgba(34,34,34,.25);
+  }
+  .stufe-head{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+  .dot{width:12px;height:12px;border-radius:50%;flex:none;box-shadow:0 0 0 5px rgba(255,255,255,.6)}
+  .s1 .dot{background:var(--rot)} .s2 .dot{background:var(--amber)} .s3 .dot{background:var(--gruen)}
+  .stufe-label{
+    font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;font-weight:500;
+  }
+  .s1 .stufe-label{color:var(--rot)} .s2 .stufe-label{color:var(--amber)} .s3 .stufe-label{color:var(--gruen)}
+  .card h2{
+    font-family:var(--serif);font-weight:500;
+    font-size:1.55rem;line-height:1.25;margin-bottom:10px;
+  }
+  .card p{color:var(--ink-soft);font-size:.98rem;margin-bottom:10px}
+  .card ul{list-style:none;margin:4px 0 14px}
+  .card li{
+    color:var(--charcoal);font-size:.96rem;padding:7px 0 7px 22px;position:relative;
+    border-bottom:1px solid rgba(34,34,34,.06);
+  }
+  .card li:last-child{border-bottom:none}
+  .card li::before{
+    content:"";position:absolute;left:2px;top:16px;width:7px;height:7px;border-radius:50%;
+    background:var(--terracotta);opacity:.55;
+  }
+  .naechster{
+    background:rgba(255,255,255,.5);
+    border-left:3px solid var(--terracotta);
+    border-radius:0 14px 14px 0;
+    padding:12px 16px;font-size:.95rem;color:var(--charcoal);
+  }
+  .naechster strong{font-weight:500}
+
+  .frage{
+    text-align:center;margin:46px 0 0;
+  }
+  .frage h2{
+    font-family:var(--serif);font-weight:500;
+    font-size:clamp(1.7rem,6vw,2.3rem);line-height:1.2;margin-bottom:14px;
+  }
+  .frage p{color:var(--ink-soft);max-width:500px;margin:0 auto 12px;font-size:1rem}
+  .cta{
+    display:inline-block;margin:22px 0 10px;
+    background:var(--copper);color:#fff;text-decoration:none;
+    font-family:var(--sans);font-weight:400;font-size:1.02rem;letter-spacing:.04em;
+    padding:16px 34px;border-radius:999px;
+    box-shadow:0 16px 30px -14px rgba(201,107,44,.55);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .cta:hover{transform:translateY(-2px);box-shadow:0 20px 36px -14px rgba(201,107,44,.6)}
+  .dm-hinweis{font-size:.92rem;color:var(--ink-soft);max-width:440px;margin:14px auto 0}
+
+  footer{
+    margin-top:60px;padding:26px 0 40px;text-align:center;
+    border-top:1px solid rgba(34,34,34,.08);
+    font-size:.8rem;color:rgba(34,34,34,.5);
+  }
+  footer a{color:rgba(34,34,34,.6);text-decoration:none;margin:0 8px}
+  footer a:hover{color:var(--terracotta)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="wordmark">Maike Neuheisel · Unstoppable</div>
+    <h1>Auf welcher Stufe stehst du gerade?</h1>
+    <p class="intro">Schön, dass du STUFE geschrieben hast. Hier ist die Übersicht, die ich dir versprochen habe: die drei Stufen, auf denen Expertinnen mit ihrem Wissen arbeiten. Lies sie in Ruhe und spür ehrlich hin, wo du gerade stehst.</p>
+  </header>
+
+  <section class="stufen">
+
+    <article class="card s1">
+      <div class="stufe-head"><span class="dot"></span><span class="stufe-label">Stufe 1 · Anstrengend</span></div>
+      <h2>Alles läuft über dich.</h2>
+      <p>Du bist richtig gut in dem, was du tust. Genau deshalb kostet es dich gerade so viel Kraft: alles, was gut werden soll, braucht dich persönlich.</p>
+      <ul>
+        <li>Du schreibst denselben Absatz zum dritten Mal um.</li>
+        <li>Du erklärst diese Woche zum zwanzigsten Mal dasselbe.</li>
+        <li>Du beantwortest 47 Nachrichten vor dem ersten Kaffee.</li>
+      </ul>
+      <div class="naechster"><strong>Dein nächster Schritt:</strong> eine einzige Abkürzung, die dir diese Woche spürbar Zeit zurückgibt. Genau solche Abkürzungen schenke ich dir in meinen Reels.</div>
+    </article>
+
+    <article class="card s2">
+      <div class="stufe-head"><span class="dot"></span><span class="stufe-label">Stufe 2 · Besser</span></div>
+      <h2>Du hast dir Abkürzungen gebaut.</h2>
+      <p>Ein paar gute Prompts, Vorlagen, Textbausteine. An guten Tagen spart dir das Zeit, und trotzdem bleibt vieles an dir hängen.</p>
+      <ul>
+        <li>Du hast dir Prompts gespeichert und findest die Hälfte davon nie wieder.</li>
+        <li>Du erklärst deiner KI jedes Mal von vorn, wer du bist und wie du klingst.</li>
+        <li>Du planst vor und schreibst am Ende doch wieder jeden Text selbst.</li>
+      </ul>
+      <div class="naechster"><strong>Dein nächster Schritt:</strong> weniger neue Abkürzungen, mehr Zusammenhang. Der Moment, in dem deine KI dich wirklich kennt, statt dass du ihr jeden Morgen alles neu erklärst.</div>
+    </article>
+
+    <article class="card s3">
+      <div class="stufe-head"><span class="dot"></span><span class="stufe-label">Stufe 3 · Unstoppable</span></div>
+      <h2>Dein Wissen arbeitet, auch ohne dich.</h2>
+      <p>Hier verändert sich das Gefühl, mit dem du morgens an den Schreibtisch kommst.</p>
+      <ul>
+        <li>Was rausgeht, klingt nach dir, und du fasst es kein drittes Mal an.</li>
+        <li>Deine Ideen landen an einem Ort, der sie weiterdenkt.</li>
+        <li>Die Vorbereitung liegt fertig da, bevor du dich hinsetzt.</li>
+      </ul>
+      <div class="naechster"><strong>Der Schritt hierher:</strong> Er ist keine weitere Abkürzung, denn er baut auf deinem Wissen und deiner Stimme auf und sieht deshalb für jede Expertin anders aus. Genau diesen Schritt gehe ich mit Expertinnen persönlich.</div>
+    </article>
+
+  </section>
+
+  <section class="frage">
+    <h2>Und, wo stehst du ehrlich?</h2>
+    <p>Wenn du wissen willst, wie dein Weg auf Stufe 3 konkret aussieht, lass uns kurz sprechen. Füll den Fragebogen aus und such dir direkt einen Termin für ein kostenloses Erstgespräch aus. Du bekommst eine ehrliche Einordnung und weißt danach, was dein nächster Schritt ist.</p>
+    <a class="cta" href="https://calendly.com/maikeneuheisel/become-unstoppable" rel="noopener">Zum Fragebogen</a>
+    <p class="dm-hinweis">Oder schreib mir einfach in der DM zurück, auf welcher Stufe du stehst. Ich lese jede Antwort und antworte dir persönlich.</p>
+  </section>
+
+  <footer>
+    <div>© 2026 Maike Neuheisel · <a href="https://www.theunstoppableway.de">theunstoppableway.de</a></div>
+    <div style="margin-top:6px"><a href="/impressum/">Impressum</a>·<a href="/datenschutz/">Datenschutz</a></div>
+  </footer>
+
+</div>
+</body>
+</html>
