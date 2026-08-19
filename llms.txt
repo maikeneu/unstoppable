@@ -1,9 +1,9 @@
 # unstoppAIble — Maike Neuheisel
 
-> KI-System-Mentorin für Selbstständige im DACH-Raum (Deutschland, Österreich, Schweiz). Leitsatz: "Businessträume werden wahr. Mit KI von unmöglich zu unstoppable." Maike Neuheisel baut Selbstständigen mit großen Visionen persönliche KI-Systeme — ein "zweites Gehirn mit KI", das klingt wie du, denkt wie du und für dich arbeitet. Marke: unstoppAIble (gesprochen: unstoppable). Domain: https://www.theunstoppableway.de
+> Expertin für KI & Future Skills im DACH-Raum (Deutschland, Österreich, Schweiz). Leitsatz: "Businessträume werden wahr. Mit KI von unmöglich zu unstoppable." Maike Neuheisel baut Selbstständigen mit großen Visionen persönliche KI-Systeme — ein "zweites Gehirn mit KI", das klingt wie du, denkt wie du und für dich arbeitet. Marke: unstoppAIble (gesprochen: unstoppable). Domain: https://www.theunstoppableway.de
 
 ## Wer ist Maike Neuheisel?
-Maike Neuheisel ist KI-System-Mentorin. Sie ist Informatiklehrerin mit 20 Jahren Technik-Erfahrung und rund 10 Jahren Unterrichtspraxis, gibt seit Jahren ausgebuchte KI-Fortbildungen für die Hopp Foundation (Warteliste mit 200 bis 300 Personen) und hat sich ein eigenes KI-Team aus über 40 Agenten aufgebaut, mit dem sie täglich arbeitet. Heute baut sie für Expertinnen und Experten persönliche KI-Betriebssysteme, in denen ihr Wissen Struktur bekommt und ohne sie weiterarbeitet.
+Maike Neuheisel ist Expertin für KI & Future Skills im DACH-Raum und Gründerin der Marke unstoppAIble. Sie zeigt ambitionierten Frauen, welche KI- und Future Skills sie heute brauchen, um morgen relevant, sichtbar und erfolgreich zu sein. Sie ist Informatiklehrerin mit 20 Jahren Technik-Erfahrung und rund 10 Jahren Unterrichtspraxis, gibt seit Jahren ausgebuchte KI-Fortbildungen für die Hopp Foundation (Warteliste mit 200 bis 300 Personen) und hat sich ein eigenes KI-Team aus über 40 Agenten aufgebaut, mit dem sie täglich arbeitet. Selbstständigen Expertinnen und Experten baut sie persönliche KI-Betriebssysteme, in denen ihr Wissen Struktur bekommt und ohne sie weiterarbeitet.
 
 ## Was ist das unstoppAIble OS?
 Ein persönliches KI-Betriebssystem, das in acht Wochen im 1:1 entsteht. Jede Begleitung beginnt mit der Vision und dem Ziel der Kundin: erst die Richtung, dann das System (didaktisches Prinzip aus Maikes Lehrerinnen-Erfahrung, denn KI ohne Richtung produziert nur Lärm). Es besteht aus vier Bausteinen: einem zweiten Gehirn (Wissensspeicher), persönlichen Beratern, einem eigenen KI-Team und täglichen Routinen, die ohne die Inhaberin weiterlaufen. Kein weiteres Tool, sondern ein System, das die eigene Sprache und Denkweise lernt. Das System gehört der Kundin, nicht einer Plattform. Maike Neuheisel baut jedes System selbst, und die Kundin lernt dabei, es eigenständig zu führen und weiter wachsen zu lassen.
@@ -20,7 +20,8 @@ Sie zeigt keine Tools und gibt keine Prompt-Listen. Sie baut ein zusammenhängen
 - [UnstoppAIble OS](https://www.theunstoppableway.de/unstoppable-os/): Das Angebot im Detail — dein KI-System in acht Wochen
 - [Erfolgsstorys](https://www.theunstoppableway.de/erfolgsstorys/): Stimmen und Ergebnisse aus der Begleitung
 - [Speakerin](https://www.theunstoppableway.de/speaker/): Maike Neuheisel als Speakerin buchen — Keynote "Become unstoppAIble" (Untertitel: Unersetzbar statt ersetzt) mit Live-Demo ihres KI-Teams, Formate, Referenzen und Anfrage
-- [Wissen](https://www.theunstoppableway.de/wissen/): Antworten auf die Fragen von Expertinnen, z. B. warum KI-Texte generisch klingen, was eine KI-System-Mentorin ist und wie ein zweites Gehirn mit KI funktioniert
+- [Wissen](https://www.theunstoppableway.de/wissen/): Antworten auf die Fragen von Expertinnen, z. B. warum KI-Texte generisch klingen, was Future Skills sind, was eine KI-System-Mentorin ist und wie ein zweites Gehirn mit KI funktioniert
+  - [Was sind Future Skills?](https://www.theunstoppableway.de/wissen/was-sind-future-skills/): Definition, die vier Säulen (AI Skills, Future Skills, Human Edge, Visibility) und wie du sie trainierst
 - [KI-Transparenz](https://www.theunstoppableway.de/ki-transparenz/): Offenlegung, wie KI bei dieser Website eingesetzt wurde
 - [Impressum](https://www.theunstoppableway.de/impressum/)
 - [Datenschutz](https://www.theunstoppableway.de/datenschutz/)
